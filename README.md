@@ -1,16 +1,18 @@
-# Linear Regression Project
+# Linear Regression Project #
 
 ## Analysis Outline: Final Project ##
 
--	Research Question: The research question is a part of an exploratory observational study exploring the relationship between total cost of insurance claims by a subscriber and the number of comorbidities. Does the number of comorbidities affect the total cost of claims made by a subscriber?
+### Research Question ###
+The research question is a part of an exploratory observational study exploring the relationship between total cost of insurance claims by a subscriber and the number of comorbidities. Does the number of comorbidities affect the total cost of claims made by a subscriber?
 
 -	Primary outcome: total cost of claims by subscriber (dollars)
 
 -	Main exposure: number of other diseases that the subscriber had during the period
 
--	Data set description: The data set was collected information from 788 individuals from an insurance company who made claims resulting from ischemic (coronary) heart disease. Information was collected on total costs and 9 variables were collected based on the possibilities of influencing the total cost of insurance claims. Data was collected from January 1, 1998 through December 31, 1999. 
+### Data set description ###
+The data set was collected information from 788 individuals from an insurance company who made claims resulting from ischemic (coronary) heart disease. Information was collected on total costs and 9 variables were collected based on the possibilities of influencing the total cost of insurance claims. Data was collected from January 1, 1998 through December 31, 1999. 
 
--	Variables:
+### Variables ###
 
   - Identification number: ordinal data, used to identify observation and provides information for other variables 
   - Total cost: total cost of claims by subscriber (dollars) (Quantitative, continuous)
@@ -23,7 +25,7 @@
   - Duration: number of days of duration of treatment condition (Quantitative, continuous)
   
  
--		Analysis strategy 
+### Analysis strategy ###
   1.	Look at the data
   2.	Fit the preliminary model 
   3.	Perform diagnostics
