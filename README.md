@@ -34,10 +34,10 @@ The data set was collected information from 788 individuals from an insurance co
   4.	Fix problems
      a.	Explore interaction, box-cox transformation, outliers, consider categorizing variables such as complications: 1 if yes; 0 if no, using no as the reference. The same consideration for drugs, instead of considering the number of drugs tracked, I propose to reform the variable as “does the individual have tracked drugs prescribed?” 1 if yes; 0 if no. Explore Higher order terms 
      b.	Use methods of variable selection 
-      i.	Explore missingness 
-      ii.	Confounding 
-      iii.	Model selection and validation strategies from chapter 9 will be employed as relevant
-    c.	Compare models using likelihood ratio tests for which model is best fit for the data, inference, ANOVA F, mean prediction 
+        i.	Explore missingness 
+        ii.	Confounding 
+        iii.	Model selection and validation strategies from chapter 9 will be employed as relevant 
+     c.	Compare models using likelihood ratio tests for which model is best fit for the data, inference, ANOVA F, mean prediction 
   5.	Fit new model 
   6.	Diagnose new model
     a.	Influential point analysis strategies from chapter 10 will be employed as relevant.
