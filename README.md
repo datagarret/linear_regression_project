@@ -2,7 +2,7 @@
 
 Analysis Outline: Final Project
 
-•	Research Question: The research question is a part of an exploratory observational study exploring the relationship between total cost of insurance claims by a subscriber and the number of comorbidities. Does the number of comorbidities affect the total cost of claims made by a subscriber?
+o	Research Question: The research question is a part of an exploratory observational study exploring the relationship between total cost of insurance claims by a subscriber and the number of comorbidities. Does the number of comorbidities affect the total cost of claims made by a subscriber?
 
 o	Primary outcome: total cost of claims by subscriber (dollars)
 
@@ -12,9 +12,9 @@ o	Data set description: The data set was collected information from 788 individu
 
 o	Variables:
 
-  Identification number: ordinal data, used to identify observation and provides information for other variables 
-  Total cost: total cost of claims by subscriber (dollars) (Quantitative, continuous)
-  Age: age of the subscriber (years) (Quantitative, continuous)
+  o Identification number: ordinal data, used to identify observation and provides information for other variables 
+  o Total cost: total cost of claims by subscriber (dollars) (Quantitative, continuous)
+  o Age: age of the subscriber (years) (Quantitative, continuous)
   Gender: gender of subscriber (1 if male; 0 otherwise) (categorical, dichotomous)
   Interventions: total number of interventions or procedures carried out (Quantitative, continuous)
   Emergency room visits: number of emergency room visits (Quantitative, continuous)
