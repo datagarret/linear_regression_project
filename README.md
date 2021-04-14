@@ -1,29 +1,29 @@
 # Linear Regression Project
 
-Analysis Outline: Final Project
+## Analysis Outline: Final Project ##
 
-o	Research Question: The research question is a part of an exploratory observational study exploring the relationship between total cost of insurance claims by a subscriber and the number of comorbidities. Does the number of comorbidities affect the total cost of claims made by a subscriber?
+-	Research Question: The research question is a part of an exploratory observational study exploring the relationship between total cost of insurance claims by a subscriber and the number of comorbidities. Does the number of comorbidities affect the total cost of claims made by a subscriber?
 
-o	Primary outcome: total cost of claims by subscriber (dollars)
+-	Primary outcome: total cost of claims by subscriber (dollars)
 
-o	Main exposure: number of other diseases that the subscriber had during the period
+-	Main exposure: number of other diseases that the subscriber had during the period
 
-o	Data set description: The data set was collected information from 788 individuals from an insurance company who made claims resulting from ischemic (coronary) heart disease. Information was collected on total costs and 9 variables were collected based on the possibilities of influencing the total cost of insurance claims. Data was collected from January 1, 1998 through December 31, 1999. 
+-	Data set description: The data set was collected information from 788 individuals from an insurance company who made claims resulting from ischemic (coronary) heart disease. Information was collected on total costs and 9 variables were collected based on the possibilities of influencing the total cost of insurance claims. Data was collected from January 1, 1998 through December 31, 1999. 
 
-o	Variables:
+-	Variables:
 
-  o Identification number: ordinal data, used to identify observation and provides information for other variables 
-  o Total cost: total cost of claims by subscriber (dollars) (Quantitative, continuous)
-  o Age: age of the subscriber (years) (Quantitative, continuous)
-  Gender: gender of subscriber (1 if male; 0 otherwise) (categorical, dichotomous)
-  Interventions: total number of interventions or procedures carried out (Quantitative, continuous)
-  Emergency room visits: number of emergency room visits (Quantitative, continuous)
-  Complications: number of other complications that arose during heart disease treatment (Quantitative, continuous)
-  Comorbidities: number of other diseases that the subscriber had during the period (Quantitative, continuous)
-  Duration: number of days of duration of treatment condition (Quantitative, continuous)
+  - Identification number: ordinal data, used to identify observation and provides information for other variables 
+  - Total cost: total cost of claims by subscriber (dollars) (Quantitative, continuous)
+  - Age: age of the subscriber (years) (Quantitative, continuous)
+  - Gender: gender of subscriber (1 if male; 0 otherwise) (categorical, dichotomous)
+  - Interventions: total number of interventions or procedures carried out (Quantitative, continuous)
+  - Emergency room visits: number of emergency room visits (Quantitative, continuous)
+  - Complications: number of other complications that arose during heart disease treatment (Quantitative, continuous)
+  - Comorbidities: number of other diseases that the subscriber had during the period (Quantitative, continuous)
+  - Duration: number of days of duration of treatment condition (Quantitative, continuous)
   
  
-o		Analysis strategy 
+-		Analysis strategy 
   1.	Look at the data
   2.	Fit the preliminary model 
   3.	Perform diagnostics
