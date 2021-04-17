@@ -3,27 +3,31 @@
 ## Analysis Outline: Final Project ##
 
 ### Research Question ###
-The research question is a part of an exploratory observational study exploring the relationship between total cost of insurance claims by a subscriber and the number of comorbidities. Does the number of comorbidities affect the total cost of claims made by a subscriber?
+The research question is a part of an exploratory observational study exploring the relationship between infection surveillance, control programs and the reduction of hospital-acquired infection rates. Does the average length of stay in the hospital affect the infection risk of nosocomial infections?
 
--	Primary outcome: total cost of claims by subscriber (dollars)
+-	Primary outcome: infection risk, the average estimated probability of acquiring infection in the hospital (percent)
 
--	Main exposure: number of other diseases that the subscriber had during the period
+-	Main exposure: length of stay, the average length of stay of all patients in hospitals
 
 ### Data set description ###
-The data set was collected information from 788 individuals from an insurance company who made claims resulting from ischemic (coronary) heart disease. Information was collected on total costs and 9 variables were collected based on the possibilities of influencing the total cost of insurance claims. Data was collected from January 1, 1998 through December 31, 1999. 
+The SENIC Project, the Study on the Efficacy of Nosocomial Infection Control, was a random sample of 113 hospitals among 338 hospitals originally surveyed. The study period was from 1975-1976. The primary objective was to determine if infection surveillance and control programs reduce the rates of hospital-ac quired infection in the United States.
 
 ### Variables ###
 
-  - Identification number: ordinal data, used to identify observation and provides information for other variables 
-  - Total cost: total cost of claims by subscriber (dollars) (Quantitative, continuous)
-  - Age: age of the subscriber (years) (Quantitative, continuous)
-  - Gender: gender of subscriber (1 if male; 0 otherwise) (categorical, dichotomous)
-  - Interventions: total number of interventions or procedures carried out (Quantitative, continuous)
-  - Emergency room visits: number of emergency room visits (Quantitative, continuous)
-  - Complications: number of other complications that arose during heart disease treatment (Quantitative, continuous)
-  - Comorbidities: number of other diseases that the subscriber had during the period (Quantitative, continuous)
-  - Duration: number of days of duration of treatment condition (Quantitative, continuous)
-  
+  - Identification number: ordinal data, used to identify observation and provides information for other variables for a single hospital 
+  - Length of stay: the average length of stay of all patients in hospitals (day)s (Quantitative, continuous)
+  - Age: verage age of the patients (years) (quantitative, continuous)
+  - Infection risk: the average estimated probability of acquiring infection in the hospital (percent) (Quantitative, continuous)
+  - Routine culturing ratio: ratio of the number of cultures performed to number of patients without signs or symptoms of hospital-acquired infection, times 100 (quantitative, continuous)
+  - Routine chest X-ray ratio: ratio of the number of X-rays performed to number of patients without signs or symptoms of pneumonia, times 100 (quantitative, continuous)
+  - Number of beds: average number of beds in the hospital during the study period (Quantitative, continuous)
+  - Medical school affiliation: 1=yes, 2=no
+  - Region: geographic region, 1=NE, 2=NC, 3=S, 4=W
+  - Average daily census: average number of patients in the hospital per day during the study period (quantitative, continuous)
+  - Number of nurses: average number of full-time equivalent and licensed practical nurses during the study period (number of full-time + 1.5 the number of part-time nurses)
+  - Available facilities and services: percent of 35 potential facilities and services that are provided by the hospital
+
+
  
 ### Analysis strategy ###
   1.	Look at the data
